@@ -81,7 +81,12 @@ h1 {
     font-weight: bolder;
 }
 
-.header {
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
     font-size: 2em;
     font-weight: bolder;
     padding-top: 50px;
