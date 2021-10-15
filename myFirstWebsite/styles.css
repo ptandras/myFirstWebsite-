@@ -1,13 +1,9 @@
-/* Google font */
-
-font-family: 'Roboto',
-sans-serif;
-
-/* Top menu */
+/* Top menu + Google font */
 
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 table {
@@ -81,12 +77,7 @@ h1 {
     font-weight: bolder;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6,
-h7 {
+h2 {
     font-size: 2em;
     font-weight: bolder;
     padding-top: 50px;
