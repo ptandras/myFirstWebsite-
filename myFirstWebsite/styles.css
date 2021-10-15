@@ -1,0 +1,92 @@
+/* Google font */
+
+font-family: 'Roboto',
+sans-serif;
+
+/* Top menu */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    background-color: #333333;
+    padding-right: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+td img {
+    margin: 15px 100px;
+    width: 30px;
+    float: left;
+    padding-left: 10%;
+}
+
+td a {
+    border-collapse: separate;
+    border-spacing: 10px 0;
+    float: right;
+    font-size: x-large;
+    letter-spacing: 0.1em;
+    font-weight: bolder;
+    color: #ff0099;
+    font-family: 'Courier New', Courier, sans-serif;
+}
+
+
+/* Divs */
+
+.content {
+    margin: 0;
+    background-image: url(../assets/topography.png);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.contentText {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/* Content */
+
+h1 {
+    font-size: 4em;
+    padding-top: 10%;
+}
+
+.faculty {
+    font-size: 3em;
+    color: #ff0099;
+}
+
+.aboutme {
+    font-size: 2em;
+}
+
+.separator {
+    font-size: 2em;
+    text-align: center;
+    padding: 60px;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.header {
+    font-size: 2em;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+
+.text {
+    font-size: 1.5em;
+}
