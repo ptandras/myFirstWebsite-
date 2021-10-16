@@ -6,26 +6,34 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-table {
+.flex-container {
+    display: flex;
     width: 100%;
     background-color: #333333;
     padding-right: 10%;
     position: fixed;
     top: 0;
     left: 0;
+    height: 10%;
 }
 
-td img {
-    margin: 15px 100px;
+.flex-container>div {
+    padding: 10px;
+    padding-top: 15px;
+    align-content: center;
+}
+
+img {
+    margin: 0px 100px;
     width: 30px;
-    float: left;
     padding-left: 10%;
 }
 
-td a {
-    border-collapse: separate;
-    border-spacing: 10px 0;
-    float: right;
+.push {
+    margin-left: auto;
+}
+
+a {
     font-size: x-large;
     letter-spacing: 0.1em;
     font-weight: bolder;
@@ -34,7 +42,7 @@ td a {
 }
 
 
-/* Divs */
+/* Body */
 
 .content {
     margin: 0;
